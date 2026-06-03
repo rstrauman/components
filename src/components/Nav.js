@@ -1,11 +1,12 @@
-function Nav() {
+function Nav(props) {
     return (
         <nav>
             <ul className="flex">
-                <li><a href='#'>Home</a></li>
-                <li><a href='#'>About</a></li>
-                <li><a href='#'>Help</a></li>
-                <li><a href='#'>Contact</a></li>
+                {props.navbarItem.map(item => (
+                    <li key={item.index}>
+                        <a href={item.url}>{item.name}</a>
+                    </li>
+                ))}
             </ul>
         </nav>
     );

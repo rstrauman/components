@@ -1,11 +1,11 @@
 import Nav from './Nav';
 
-function Header() {
+function Header(props) {
     return (
         <header>
             <div className="flex">
                 <h1>Components</h1>
-                <Nav/>
+                <Nav navbarItem = {props.navbarItem}/>
             </div>
         </header>
     );
