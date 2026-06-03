@@ -1,8 +1,12 @@
 function Button(props) {
     return (
-        <button className={props.isClicked ? 'click' : 'no-click'}>
-            { props.isClicked ? 'Clicked' : 'Click Me!' }
-        </button>
+        <>
+            {props.btns.map(btns => (
+                <button key={btns.index} className={btns.style}>
+                    {btns.text}
+                </button>
+            ))}
+        </>
     );
 }
 
