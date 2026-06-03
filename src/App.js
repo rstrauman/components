@@ -8,6 +8,8 @@ function App() {
         {index: 3, name: 'Contact', url: '#'}
     ];
 
+    let isClicked = false;
+
     return (
         <>
             <Header navbarItem={navbarItem}/>  
