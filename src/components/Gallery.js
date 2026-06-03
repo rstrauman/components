@@ -2,9 +2,9 @@ import Image from './Image';
 
 function Gallery(props) {
     return (
-        <div className="flex">
+        <section className="flex">
             <Image imgs={props.imgs}/>
-        </div>
+        </section>
     );
 }
 

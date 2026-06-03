@@ -16,7 +16,7 @@ header, footer {
 }
 
 h1 {
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 ul {
@@ -43,9 +43,58 @@ a {
 
 main {
     height: calc(100svh - 120px);
+    background-color: #cdcdcd;
 }
 
+/***** Banner *****/
 
+.banner.flex {
+    flex-direction: column;
+    place-items: center;
+    gap: 20px;
+    padding: 40px 0;
+}
+
+.banner.flex div {
+    gap: 40px;
+}
+
+h2 {
+    color: #fff;
+}
+
+.primary, .secondary {
+    padding: 6px 10px;
+    border-radius: 50px;
+    font-weight: 500;
+    color: #fff;
+    transition: all 0.25s ease-in-out;
+} 
+
+.primary {
+    border: 2px solid transparent;
+    background: linear-gradient(90deg, rgb(225, 134, 193), rgb(192, 62, 144)) padding-box;
+}
+
+.secondary {
+    background: none;
+    border: 2px solid #fff;
+}
+
+.primary:hover, .secondary:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.primary:hover {
+    background: none;
+    border-color: #fff;
+}
+
+.secondary:hover {
+    border-color: transparent;
+    background: linear-gradient(90deg, rgb(225, 134, 193), rgb(192, 62, 144)) padding-box;
+}
 
 img {
     height: 50px;
