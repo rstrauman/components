@@ -1,5 +1,11 @@
 import Header from './components/Header';
 import Banner from './components/Banner';
+import Gallery from './components/Gallery';
+
+import Greece from './media/Greece.jpg';
+import Hawaii from './media/Hawaii.jpg';
+import NewYork from './media/New_York.jpg';
+import Toronto from './media/Toronto.jpg';
 
 function App() {
     const navbarItem = [
@@ -14,6 +20,13 @@ function App() {
         { index: 1, text: "Secondary", style: "secondary" }
     ];
 
+    const imgs = [
+        {index: 0, source: Greece},
+        {index: 1, source: Hawaii},
+        {index: 2, source: NewYork},
+        {index: 3, source: Toronto},
+    ]
+
     let isClicked = false;
 
     return (
@@ -21,6 +34,7 @@ function App() {
             <Header navbarItem={navbarItem}/>  
             <main>
                 <Banner isClicked={isClicked} btns={btns}/>
+                <Gallery imgs={imgs}/>
             </main>
         </>
     );
