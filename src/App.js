@@ -28,8 +28,6 @@ function App() {
         {index: 3, source: Toronto},
     ]
 
-    let isClicked = false;
-
     return (
         <>
             <Header navbarItem={navbarItem}/>  
