@@ -1,1 +1,53 @@
 @import "./container.css";
+
+/***** Header + Footer *****/
+
+header, footer {
+    height: 60px;
+    line-height: 60px;
+    color: #fff;
+    text-align: center;
+    background: linear-gradient(90deg, rgb(225, 134, 193),  rgb(192, 62, 144));
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    text-transform: capitalize;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 0 20px;
+    transition: all 0.25s ease-in-out;
+}
+
+li:hover {
+    cursor: pointer;
+    background-color: rgb(181, 61, 139);
+} 
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+
+/***** Main *****/
+
+main {
+    height: calc(100svh - 120px);
+}
+
+
+
+img {
+    height: 50px;
+    width: auto;
+}

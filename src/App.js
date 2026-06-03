@@ -34,9 +34,12 @@ function App() {
         <>
             <Header navbarItem={navbarItem}/>  
             <main>
-                <Banner isClicked={isClicked} btns={btns}/>
-                <Gallery imgs={imgs}/>
+                <div className='container'>
+                    <Banner isClicked={isClicked} btns={btns}/>
+                    <Gallery imgs={imgs}/>
+                </div>
             </main>
+            <Footer/>
         </>
     );
 }

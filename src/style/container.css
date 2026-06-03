@@ -1,38 +1,6 @@
 @import "./reset.css";
-
 .container{
     width: min(100% - 30px, 1080px);
     margin-inline: auto;
-}
-
-header {
-    height: 60px;
-    /* background-color: rgb(165, 0, 55); */
-    background-color: rgb(165, 0, 55, 0.5); /* Transparency */ 
-}
-
-h1{
-    font-size: 22px;
-    /* rgb(255, 255, 255) (RGB, White) */ 
-    color: #fff; /* hexadecimal */
-    text-align: center;
-    line-height: 60px;
-}
-
-article{
-    /* margin: 20px, 40px, 20px, 80px; - Top, Right, Bottom, Left */
-    /* margin: 40px, 20px; - top/bottom, left/right */
-    /* margin-top: 40px; - Only top */
-    margin: 40px; 
-}
-
-.parent{
-    height: 200px;
-    width: 200px;
-    background-color: #7fffd4;
-}
-.child {
-    width: 50%; /* The child k ows the width styles of the parent */
-    height: 50%;
-    background-color: #ffff00;
+    height: 100%;
 }

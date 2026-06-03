@@ -1,7 +1,9 @@
 function Footer() {
     return (
         <footer>
-            <p>© My Site - Gallery Snapshots - All rights reserved.</p>
+            <div className='container'>
+                <p>© My Site - Gallery Snapshots - All rights reserved.</p>
+            </div>
         </footer>
     );
 }
