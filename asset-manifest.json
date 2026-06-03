@@ -1,13 +1,17 @@
 {
   "files": {
-    "main.css": "/components/static/css/main.e863c000.css",
-    "main.js": "/components/static/js/main.7260f178.js",
+    "main.css": "/components/static/css/main.d15cc2c0.css",
+    "main.js": "/components/static/js/main.618c5535.js",
+    "static/media/Toronto.jpg": "/components/static/media/Toronto.0948eaf58ca668f4cdf4.jpg",
+    "static/media/Hawaii.jpg": "/components/static/media/Hawaii.202cbfb0e32ec25adbf2.jpg",
+    "static/media/New_York.jpg": "/components/static/media/New_York.7824cf9b3af8a190f73b.jpg",
+    "static/media/Greece.jpg": "/components/static/media/Greece.049a562e7b79545bc9a1.jpg",
     "index.html": "/components/index.html",
-    "main.e863c000.css.map": "/components/static/css/main.e863c000.css.map",
-    "main.7260f178.js.map": "/components/static/js/main.7260f178.js.map"
+    "main.d15cc2c0.css.map": "/components/static/css/main.d15cc2c0.css.map",
+    "main.618c5535.js.map": "/components/static/js/main.618c5535.js.map"
   },
   "entrypoints": [
-    "static/css/main.e863c000.css",
-    "static/js/main.7260f178.js"
+    "static/css/main.d15cc2c0.css",
+    "static/js/main.618c5535.js"
   ]
 }
