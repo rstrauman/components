@@ -43,7 +43,13 @@ a {
 
 main {
     height: calc(100svh - 120px);
+    color: #fff;
     background-color: #cdcdcd;
+}
+
+main .container.flex {
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 /***** Banner *****/
@@ -51,16 +57,11 @@ main {
 .banner.flex {
     flex-direction: column;
     place-items: center;
-    gap: 20px;
-    padding: 40px 0;
-}
-
-.banner.flex div {
     gap: 40px;
 }
 
-h2 {
-    color: #fff;
+.banner.flex div {
+    gap: 20px;
 }
 
 .primary, .secondary {
@@ -96,7 +97,23 @@ h2 {
     background: linear-gradient(90deg, rgb(225, 134, 193), rgb(192, 62, 144)) padding-box;
 }
 
-img {
-    height: 50px;
-    width: auto;
+/***** Gallery *****/
+
+.gallery.flex {
+    gap: 20px;
+    width: 100%;
+}
+
+.gallery.flex img {
+    width: 100%;
+    max-width: 240px; 
+    height: auto;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    transition: all 0.25s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }

@@ -34,7 +34,7 @@ function App() {
         <>
             <Header navbarItem={navbarItem}/>  
             <main>
-                <div className='container'>
+                <div className='container flex'>
                     <Banner isClicked={isClicked} btns={btns}/>
                     <Gallery imgs={imgs}/>
                 </div>
