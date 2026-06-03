@@ -4,7 +4,7 @@ function Header(props) {
     return (
         <header>
             <div className="flex">
-                <h1>Components</h1>
+                <h1>Gallery</h1>
                 <Nav navbarItem = {props.navbarItem}/>
             </div>
         </header>

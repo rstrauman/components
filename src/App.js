@@ -1,6 +1,7 @@
 import Header from './components/Header';
 import Banner from './components/Banner';
 import Gallery from './components/Gallery';
+import Footer from './components/Footer';
 
 import Greece from './media/Greece.jpg';
 import Hawaii from './media/Hawaii.jpg';
