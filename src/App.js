@@ -1,3 +1,5 @@
+import Header from './components/Header';
+
 function App() {
     const navbarItem = [
         {index: 0, name: 'About', url: '#'},
@@ -8,7 +10,7 @@ function App() {
 
     return (
         <>
-            <Header navLinks={navbarItem}/>  
+            <Header navbarItem={navbarItem}/>  
         </>
     );
 }
